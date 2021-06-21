@@ -1,6 +1,10 @@
-import logo from './logo.svg';
+import React from "react";
+//import logo from './logo.svg';
 import './App.css';
-
+import Header from './Header';
+import List from './List';
+import Paragraph from './Paragraph';
+/*
 function App() {
   return (
     <div className="App">
@@ -20,6 +24,18 @@ function App() {
       </header>
     </div>
   );
+}*/
+
+const hello = React.createElement("p", null, "Hello React.");
+
+const App = () => {
+  return (
+    <>
+      <Header />
+      <Paragraph />
+      <List />
+    </>
+    );
 }
 
 export default App;

@@ -23,11 +23,16 @@ const element = (
   </div>
 );
 
+const reactLink = <h1><a href="http://reactjs.org/">React</a></h1>
+
 
 ReactDOM.render(
+  /*
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  */
+ App(),
   document.getElementById('root')
 );
 

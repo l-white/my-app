@@ -23,12 +23,11 @@ const element = (
   </div>
 );
 
+
 ReactDOM.render(
-  /*<React.StrictMode>
+  <React.StrictMode>
     <App />
   </React.StrictMode>,
-  */
- element,
   document.getElementById('root')
 );
 
